@@ -1,0 +1,542 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	/*min-height: 100%;*/
+	font-family: Cuprum,Arial,sans-serif;
+
+}
+
+
+ul{
+	list-style: none;
+}
+
+
+
+body{
+	/*background: url("../img/header.jpg") no-repeat;
+	background-position: center;*/
+/*	background: grey;*/
+	background-color: white !important;
+	margin: 0;
+}
+
+/*.main-menu li:hover {
+	animation-name: animator;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animator{
+    from {	transform: rotate3d(0, 0, 0, 0deg) scale(1.5);
+	-webkit-transform: rotate3d(0, 0, 0, 0deg) scale(1.5);}
+    to {transform: rotate3d(360, 360,360, 360deg) scale(1);
+	-webkit-transform:  rotate3d(360, 360, 360,360deg) scale(1);}
+}
+*/
+header{
+/*	margin-top: 300px;*/
+	margin-top: 0; 
+	font-family:  Cuprum, Arial, sans-serif;
+}
+
+footer{
+	font-family: Cuprum,Arial, sans-serif;
+	margin: auto;
+	bottom: 0;
+	max-width: 1250px;
+	width: 100%;
+	background: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer > div{
+	margin: auto;
+	padding: 5px;
+	max-width: 625px;
+}
+
+footer > div img{
+	margin: auto;
+	width: 100%;
+	height: auto;
+
+}
+
+footer > h6{
+	margin: auto;
+	color: white;
+}
+
+footer > ul{
+	width: 150px;
+	margin: 0 auto;
+	max-width: 60px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+footer i{
+	margin: 2px;
+	color: white;
+	font-size: 1.5em;
+}
+
+.up-container{
+	margin: auto;
+	max-width: 1250px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background: black;
+}
+
+/*.up{
+	margin: auto;
+	width: 100%
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}*/
+
+.up-img{
+	display: block;
+	margin: auto;
+	width: 30%;
+	height: auto;
+}
+
+.up-img > img{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.up-img > img:hover{
+	animation-name: logo;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes logo{
+    from {	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);}
+    to {transform: rotate(360deg);
+	-webkit-transform:  rotate(360deg);}
+}
+
+.up-text{
+	display: block;
+	margin: auto;
+	width: 70%;
+	height: auto;
+}
+
+.up-text img{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.main-div, .rollerdrom1{
+	border: 1px solid black;
+	max-width: 1250px;
+	margin: auto;
+}
+
+.main-div > img{
+	/*position: relative;*/
+	width: 100%;
+	height: auto;
+}
+
+.main-div > h2{
+	position	: absolute;
+	width		: 100%;
+	top: 60%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 36;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.main-div > h2 span {
+	color			: white;
+	font			: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing		: -1px;
+	background		: rgb(0, 0, 0);
+	background		: rgba(0, 0, 0, 0.7);
+	padding			: 10px 10px 10px 10px;
+}
+
+.main-menu *{
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu ul,
+.main-menu ol{
+	list-style: none;
+}
+
+.main-menu > ul{
+	display: flex;
+	justify-content: center;
+}
+
+.main-menu > ul li a{
+	display: block;	
+	height: 20px;
+/*	background: #feffff;
+	background: -webkit-linear-gradient(#feffff 0%, #ddf1f9 35%, #a0d8ef 100%);
+	background: -o-linear-gradient(#feffff 0%, #ddf1f9 35%, #a0d8ef 100%);
+	background: linear-gradient(#feffff 0%, #ddf1f9 35%, #a0d8ef 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 );*/
+	padding: 15px 30px 15px 40px;
+	font-size: 15px;
+	color: #454547;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3 ease;
+}
+
+.main-menu > ul li{
+	position: relative;	
+	/*border-right: 1px solid #c7c8ca; */
+	max-width: 250px;
+	width: 100%
+}
+
+.main-menu > ul li  > a i.fa{
+	position: absolute;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;
+}
+
+/*.main-menu > ul li:first-child{
+	border-left:  1px solid #b2b3b5;
+}
+
+.main-menu > ul li:last-child{
+	border-right:  1px solid #babbbb;
+}
+*/
+.main-menu li a:hover{
+	background: #000000;
+	background: -webkit-linear-gradient(#000000 0%, #45484d 100%);
+	background: -o-linear-gradient(#000000 0%, #45484d 100%);
+	background: linear-gradient(#000000 0%, #45484d 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3 ease;
+}
+
+
+/* menu second level*/
+
+/*.main-menu li ul{
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+
+.main-menu li > ul li{
+	border: 1px solid #c7c8ca;
+}
+
+.main-menu li > ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #e4e4e5
+}
+
+.main-menu li > ul li ul{
+	position: absolute;
+	right: -258px;
+	top: 0;
+}
+
+.main-menu li:hover > ul{
+	display: block;
+}
+*/
+.gallery{
+/*	border: 1px solid black;
+	border-radius: 15px;
+	background: grey;*/
+	max-width: 1250px;
+	margin: auto;
+	font-size: 0;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-flow: row wrap;
+	display: flex;
+}
+
+.gallery div{
+	flex: auto;
+
+	width: 240px;
+/*	margin: .2vw;*/
+}
+
+.gallery img{
+	/*border-radius: 15px;*/
+	width: 100%;
+	height: auto;
+}
+
+.gallery:hover img{
+	opacity: 0.3;
+	transition: .8s opacity;
+}
+
+.gallery:hover img:hover{
+	opacity: 1;
+	transition: .8s opacity;
+}
+
+.advantages_item > img{
+	width: 200px;
+}
+
+.advantages_container{
+	display: flex;
+	justify-content: center;
+}
+
+.advantages{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+
+.advantages_item{
+	width: 30%;
+}
+
+
+.place-container{
+	background: rgb(248,248,248);
+	border-radius: 10px;
+	box-shadow: rgba(0,0,0,0.2) 0 8px 4px -4px;
+	font-weight: 100;
+	margin: 20px auto;
+	width: 60rem;
+}
+
+.place-container a:hover{
+	border-color: #ff4d4d;
+	color: #ff4d4d;
+}
+
+.place-cover{
+	/*background: url(../img/rollerdromcherkassy.jpg);*/
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+	height: auto;
+}
+
+.place-cover img{
+	/*background: url(../img/rollerdromcherkassy.jpg);*/
+	background-size: cover;
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+	height: auto;
+}
+
+.place-body{
+	margin: 0 auto;
+	width: 90%;
+}
+
+.place-title h1 a{
+	color: #333;
+	font-weight: 100;
+}
+
+.place-text p{
+	color: #4d4d4d
+}
+
+.place-tags ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: 
+}
+
+.place-tags li + li{
+	margin-left: .5rem
+}
+
+.place-tags a{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	color: #999999;
+	font-size: .75rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	letter-spacing: 1px;
+	padding: 0 .5rem;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: 5rem;
+}
+
+.place-footer{
+	border-top: 1px solid #e6e6e6;
+	margin: 0 auto;
+	padding-bottom: 0.125rem;
+	width: 80%;
+}
+
+.place-footer{
+	list-style: none;
+	display: flex;
+	flex: row wrap;
+	justify-content: flex-end;
+	padding-left: 0px;
+}
+
+.place-footer{
+	color: #999999;
+	font-size: .75rem;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	white-space: nowrap;
+}
+
+.place-li{
+	border: 1px solid #999999;
+	border-radius: 3px;
+	padding: 0.5rem .5rem;
+}
+
+@media screen and (max-width: 1250px){
+	.advantages_item{
+		width: 45%;
+	}
+	.place-container{
+		width: 45rem;
+		font-size: .6rem;
+	}
+	.place-footer{
+		font-size: .6rem;
+	}
+
+	.place-tags a{
+		font-size: 0.6rem;
+	}
+
+	.place-li{
+		border: 1px solid #999999;
+		border-radius: 2px;
+		padding: 0.2rem .2rem;
+	}
+
+}
+
+@media screen and (max-width: 920px){
+	.advantages_item{
+		width: 45%;
+	}
+	.place-container{
+		width: 30rem;
+	}
+
+}
+
+
+@media screen and (max-width: 630px){
+	.place-container{
+		width: 20rem;
+	}
+
+	.main-menu > ul{
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+	}
+
+	.main-menu li > a:hover{
+		background: white;
+		color: black;
+		font-size: 18px;
+		text-decoration: underline;
+		box-shadow: 1px 5px 10px -5px black;
+		transition: all 0.3 ease;
+	}
+
+	.main-menu li:first-child > a:hover{
+		font-size: 15px;
+		text-decoration: none;
+		background: #000000;
+		background: -webkit-linear-gradient(#000000 0%, #45484d 100%);
+		background: -o-linear-gradient(#000000 0%, #45484d 100%);
+		background: linear-gradient(#000000 0%, #45484d 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 ); 
+		color: #ffffff;
+		box-shadow: 1px 5px 10px -5px black;
+		transition: all 0.3 ease;
+	}
+
+	.main-menu > ul li{
+		margin: 0 auto;
+		max-width: 630px;
+		width: 100%;
+		
+	}
+
+	.advantages{
+		flex-direction: column; 
+	}
+
+	.advantages_item{
+		width: 100%;
+	}
+	
+	.advantages_item > img{
+		width: 80%;
+		height: auto;
+	}
+
+	.up-container{
+		flex-direction: column;
+		justify-content: center;
+		max-height: 300px;
+	}
+
+	.up-text{
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+
+	.up-img{
+		margin: auto;
+		width: 20%;
+		height: auto;
+	}
+}
